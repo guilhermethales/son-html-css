@@ -1,0 +1,3 @@
+@function btnColor($color) {
+    @return darken($color, 20%);
+}

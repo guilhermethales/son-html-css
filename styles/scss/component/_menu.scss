@@ -1,0 +1,26 @@
+.menu-footer {
+    ul {
+        list-style: none;
+        li {
+            padding: 3px 0;
+            a {
+                color: #cac4c4;
+                text-transform: uppercase;
+            }
+            a:hover {
+                border-bottom: 1px solid #cac4c4;
+            }
+            &:first-child {
+                margin-top: 10px;
+            }
+        }
+    }
+    .menu {
+        &:after {
+            display: block;
+            content: '';
+            border: 1px solid #cac4c4;
+            width: 15%;
+        }
+    }
+}

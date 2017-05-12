@@ -1,0 +1,26 @@
+#team {
+    background-color: $green;
+    color: $white;
+    h2:after {
+        background-color: $white;
+    }
+    .img-box-round {
+        display: inline-block;
+        img {
+            border-radius: 100%;
+            overflow: hidden;
+        }
+    }
+    .container-team {
+        margin-top: 3em;
+    }
+    .img-box-label:before {
+        content: '';
+        display: block;
+        border-right: 1px solid black;
+        margin-bottom: 10px;
+        background-color: transparent;
+        width: 50%;
+        height: 60px;
+    }
+}

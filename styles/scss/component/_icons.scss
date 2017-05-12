@@ -1,0 +1,45 @@
+.icon-container {
+    display: inline-block;
+    background-color: #e1f3e1;
+    width: 140px;
+    margin: 30px auto 0 auto;
+    height: 140px;
+    border-radius: 30px;
+    position: relative;
+    .icon-type {
+        position: absolute;
+        display: block;
+        color: $green;
+        font-size: 85px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.footer-icons {
+    display: inline-block;
+    top: 30%;
+    height: 200px;
+    line-height: 200px;
+    .icon-social {
+        position: relative;
+        display: inline-block;
+        background-color: $white;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        a {
+            position: absolute;
+            color: black;
+            font-size: 25px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-decoration: none;
+        }
+    }
+}

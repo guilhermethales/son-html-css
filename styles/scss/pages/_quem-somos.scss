@@ -1,0 +1,26 @@
+    .page-quem-somos {
+        background-image: url('../../../../img/background-quem-somos.jpg');
+    }
+    
+    #intro {
+        h2 {
+            font-size: 20px;
+            text-align: left;
+            &:after {
+                margin: 5px 0;
+            }
+        }
+        p {
+            text-align: left;
+        }
+    }
+    
+    #valores {
+        background-color: #f3f0e7;
+        h2 {
+            padding: 10px 0 0 0;
+            &:after {
+                display: none;
+            }
+        }
+    }

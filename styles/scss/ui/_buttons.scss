@@ -1,0 +1,40 @@
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    transition: ease .5s all;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: $green;
+    padding: 10px 30px;
+    &:hover {
+        background-color: btnColor($green);
+        color: $white;
+    }
+}
+
+.btn-salvar {
+    background-color: #e8ab3b;
+    padding: 20px 60px;
+    border-radius: 0;
+    font-size: 18px;
+    &:hover {
+        background-color: btnColor(#e8ab3b);
+        color: $white;
+    }
+}
+
+.btn-clients {
+    background-color: #b7b7b7;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        background-color: btnColor(#b7b7b7);
+    }
+}
